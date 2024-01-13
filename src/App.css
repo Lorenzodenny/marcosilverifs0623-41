@@ -78,6 +78,15 @@ footer a {
   justify-content: center;
 }
 
+.torna-home a{
+  transform-origin: center; 
+  transition: transform 1s ease-in-out; 
+}
+
+.torna-home a:hover {
+  transform: scale(1.3); 
+}
+
 #root > div > header > nav > div > div:nth-child(3){
   position: absolute;
   right: 10%;

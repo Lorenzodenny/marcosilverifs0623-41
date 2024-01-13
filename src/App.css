@@ -9,6 +9,12 @@ body {
 .conteiner {
   height: 125vh;
   background-image: url("https://previews.123rf.com/images/tartila/tartila1805/tartila180500043/100875576-cartoon-soffice-nuvola-a-skyscape-azzurro-nuvole-celesti-su-cielo-blu-illustrazione-vettoriale-di.jpg");
+
+  /* background alternativo
+
+  background-image: url("https://thumbs.dreamstime.com/b/sfondi-celesti-e-nuvole-sognanti-di-cielo-sul-regno-unito-167629373.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .custom-font {
@@ -44,7 +50,7 @@ footer a {
 
 .scaling {
   transform-origin: center; 
-  transition: transform 1.5s ease-in-out; 
+  transition: transform 1.2s ease-in-out; 
 }
 
 .scaling:hover {

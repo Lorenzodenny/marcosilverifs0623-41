@@ -7,7 +7,7 @@ body {
 
 
 .conteiner {
-  height: 125vh;
+  height: 135%;
   background-image: url("https://previews.123rf.com/images/tartila/tartila1805/tartila180500043/100875576-cartoon-soffice-nuvola-a-skyscape-azzurro-nuvole-celesti-su-cielo-blu-illustrazione-vettoriale-di.jpg");
 
   /* background alternativo
@@ -39,6 +39,7 @@ footer {
   text-align: center;
   padding: 20px;
   width: 100%;
+  margin-top: 5%;
 }
 
 footer a {

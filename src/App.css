@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.conteiner {
+  height: 125vh;
+  background-image: linear-gradient(0deg, #55948c 0%, #265e7d 66%);
+}
+
+.custom-font {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.card-ricerca {
+  background: rgb(34,34,34);
+  background: linear-gradient(214deg, rgba(34,34,34,0.8128501400560224) 0%, rgba(0,92,170,0.726015406162465) 83%);
+  border-top: 1px solid #fc820060; 
+  border-left: 1px solid #fc820060; 
+  padding: 10px; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px; 
+  font-size: 14px;
+}
+
+.scaling {
+  transform-origin: center; 
+  transition: transform 1.5s ease-in-out; 
+}
+
+.scaling:hover {
+  transform: scale(1.1); 
+}
+
+.spinta{
+  background-color:  #55948c;
+  margin: 0;
+  padding: 0;
+}
+
+.torna-home a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  width: 15%;
+  background: rgb(34,34,34);
+  background: linear-gradient(214deg, rgba(34,34,34,0.8128501400560224) 0%, rgba(0,92,170,0.726015406162465) 83%);
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+  border-top: 1px solid #fc820060; 
+  border-left: 1px solid #fc820060;
+  text-align: center;
+  margin: 3% 0;
+}
+
+.torna-home{
+  display: flex;
+  justify-content: center;
+}
+
+#root > div > header > nav > div > div:nth-child(3){
+  position: absolute;
+  right: 10%;
+  top: 70%;
+}
+
+.icone{
+  font-size: 2em;
+}
+
+.icone-pro{
+  font-size: 2em;
+}

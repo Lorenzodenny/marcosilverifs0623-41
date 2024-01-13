@@ -10,7 +10,7 @@ const MyNavbar = () => {
             <Navbar className="bg-body-light">
                 <Container className="d-flex justify-content-between">
                     <Navbar.Brand as={Link} to="/" className="d-flex justify-content-between">
-                        <h1 className="text-white">🌥 Il Meteo 🌥</h1>
+                        <h1 className="text-dark">🌥 Il Meteo 🌥</h1>
                     </Navbar.Brand>
                     <SearchCity />
                 </Container>

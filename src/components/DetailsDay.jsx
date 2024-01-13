@@ -53,19 +53,19 @@ const DetailsDay = (props) => {
             </Row>
             {results && (
                 <div>
-                    <Row className="justify-content-center text-white">
+                    <Row className="justify-content-center text-dark">
                         <Col xs={3} className="card-ricerca m-3 d-flex justify-content-around align-items-center">
-                            <h2 className="text-white">Percepiti</h2>
+                            <h2 className="text-dark">Percepiti</h2>
                             <span className="icone-pro">🌡</span>
                             <h3>{results.current.apparent_temperature}&deg;C</h3>
                         </Col>
                         <Col xs={3} className="card-ricerca m-3 d-flex justify-content-around align-items-center">
-                            <h2 className="text-white">Vento</h2>
+                            <h2 className="text-dark">Vento</h2>
                             <span className="icone-pro">🌬</span>
                             <h3>{results.current.wind_speed_10m} km/h</h3>
                         </Col>
                         <Col xs={3} className="card-ricerca m-3 d-flex justify-content-around align-items-center">
-                            <h2 className="text-white">Umidità</h2>
+                            <h2 className="text-dark">Umidità</h2>
                             <span className="icone-pro">💧</span>
                             <h3>{results.current.relative_humidity_2m}%</h3>
                         </Col>

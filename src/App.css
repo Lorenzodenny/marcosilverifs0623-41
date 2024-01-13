@@ -29,14 +29,14 @@ body {
 
 
 footer {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   width: 100%;
 }
 
 footer a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   margin-right: 10px; 
   font-size: 14px;
@@ -58,7 +58,7 @@ footer a {
 }
 
 .torna-home a{
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1.3em;
   width: 15%;

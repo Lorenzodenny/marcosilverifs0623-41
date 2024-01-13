@@ -16,7 +16,7 @@ const SingleDay = (props) => {
     };
 
     return (
-        <Col key={i} className='text-white'>
+        <Col key={i} className='text-dark'>
             <div>
                 <div className='d-flex justify-content-center fs-4'>
                     <p>{getDayOfWeek(results.daily.time[i]).slice(0, 3)}&nbsp;</p>
